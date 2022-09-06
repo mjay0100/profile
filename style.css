@@ -1,4 +1,46 @@
-img {
+.form-img {
   width: 170px !important;
   height: 170px !important;
+}
+.main.active {
+  opacity: 0;
+  background-color: rgb(65, 64, 64);
+}
+.profile {
+  display: grid;
+  /* gap: 5px; */
+  color: #fff;
+  font-weight: 600;
+  /* height: 250px; */
+  background-image: url("https://media.istockphoto.com/photos/keep-learning-concept-letters-of-the-alphabet-on-a-chalk-board-drawn-picture-id1337381696?b=1&k=20&m=1337381696&s=170667a&w=0&h=hQc5cLMDFG3MobpC5Gt-GgKSlEP9H2KZFnONIhjEwfE=");
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+  background-position: center;
+  /* border-radius: 1rem; */
+  margin: 0 1rem;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 1.5rem;
+  top: 0.5rem;
+}
+
+.update-form.active {
+  display: block !important;
+  position: absolute;
+  top: 4rem;
+  left: 18%;
+  right: 20%;
+  bottom: 5rem;
+  background-color: rgb(235, 235, 235);
+  padding: 2rem 1rem !important;
+  height: fit-content;
+  border-radius: 0.5rem;
+}
+
+i {
+  cursor: pointer;
 }
