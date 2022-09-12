@@ -21,118 +21,131 @@
       <div class="row gx-5">
         <div class="col-md-7 order-5 order-md-1 col-lg-8" style="background-color:#F2F3F9">
           <div>
-            <div class="card my-3 p-3 border-2 mx-3">
-              <div class="card-body p-2  ">
-                <h4>You can be who <span class="text-info">you want</span></h4>
-                <p class='m-0'>Today</p>
-                <p class='m-0'>4th May, 2020</p>
+            <div class="card my-3 p-3 border-2 mx-3  position-relative">
+              <div class="card-body p-2">
+                <div>
+                  <h5>You can be who <span class="text-info">you want</span></h4>
+                    <p class='m-0' style="font-size:14px;color:#ccc">Today</p>
+                    <p class='m-0'>4th May, 2020</p>
+                </div>
+
+                <img src="./student.png" class="header-img" alt="">
               </div>
             </div>
-            <div class="col-8 col-md-6 mx-auto">
-              <canvas id="myChart" width="400" height="400"></canvas>
-            </div>
-            <div class="row ">
-              <div class="col-lg-5 bg-white mt-4 mx-auto px-3 py-3 rounded ">
-                <article class="px-5 py-4 p-md-1">
-                  <h4>Schedule</h4>
-                  <p>Lessons</p>
-                  <div class="card my-3 border-2" style="border-left:3px solid purple;background-color:#FFF7FE">
-                    <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
-                      <h5>Literature</h5>
-                      <p class='m-0'>12:00pm
-                      </p>
+            <!-- <div class="col-8 col-md-12 mx-auto card p-4" style="width:400px;height:400px">
+              <canvas id="myChart" width="200" height="200"></canvas>
+            </div> -->
+            <div class="row mx-2">
+              <div class="col-lg-6 ml-2">
+                <div class="bg-white mt-4 mx-auto px-3 py-3 rounded ">
+                  <article class="px-5 py-4 p-md-1">
+                    <h4>Schedule</h4>
+                    <p>Lessons</p>
+                    <div class="card my-3 border-2" style="border-left:3px solid purple;background-color:#FFF7FE">
+                      <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
+                        <h5>Literature</h5>
+                        <p class='m-0' styke="font-size:14px">12:00pm - 2.00pm
+                        </p>
+                      </div>
+                      <div class="p-2 d-flex gap-2 align-items-center text-primary">
+                        <img
+                          src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
+                          class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
+                        <p class='m-0'>John</p>
+                        <p class='m-0'>Doe</p>
+                      </div>
                     </div>
-                    <div class="p-2 d-flex gap-2 align-items-center text-primary">
-                      <img
-                        src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
-                        class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
-                      <p class='m-0'>Nuru</p>
-                      <p class='m-0'>Something</p>
+                    <div class="card my-3 border-2" style="border-left:3px solid green;background-color:#F6FCFF">
+                      <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
+                        <h5>Biology</h5>
+                        <p class='m-0' styke="font-size:14px">12:00pm - 2.00pm
+                        </p>
+                      </div>
+                      <div class="p-2 d-flex gap-2 align-items-center text-primary">
+                        <img
+                          src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
+                          class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
+                        <p class='m-0'>John</p>
+                        <p class='m-0'>Doe</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="card my-3 border-2" style="border-left:3px solid green;background-color:#F6FCFF">
-                    <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
-                      <h5>Biology</h5>
-                      <p class='m-0'>12:00pm
-                      </p>
-                    </div>
-                    <div class="p-2 d-flex gap-2 align-items-center text-primary">
-                      <img
-                        src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
-                        class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
-                      <p class='m-0'>Nuru</p>
-                      <p class='m-0'>Something</p>
-                    </div>
-                  </div>
-                  <div class="card my-3 border-2" style="border-left:3px solid blue;background-color:#F6F5F5">
-                    <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
-                      <h5>Mathematics</h5>
-                      <p class='m-0'>12:00pm
-                      </p>
-                    </div>
-                    <div class="p-2 d-flex gap-2 align-items-center text-primary">
-                      <img
-                        src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
-                        class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
-                      <p class='m-0'>Nuru</p>
-                      <p class='m-0'>Something</p>
+                    <div class="card my-3 border-2" style="border-left:3px solid blue;background-color:#F6F5F5">
+                      <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
+                        <h5>Mathematics</h5>
+                        <p class='m-0' styke="font-size:14px">12:00pm - 2.00pm
+                        </p>
+                      </div>
+                      <div class="p-2 d-flex gap-2 align-items-center text-primary">
+                        <img
+                          src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
+                          class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
+                        <p class='m-0'>John</p>
+                        <p class='m-0'>Doe</p>
 
+                      </div>
                     </div>
-                  </div>
-                  <div class="card my-3 border-2" style="border-left:3px solid yellow;background-color:#FEFDF9">
-                    <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
-                      <h5>Physics</h5>
-                      <p class='m-0'>12:00pm
-                      </p>
+                    <div class="card my-3 border-2" style="border-left:3px solid yellow;background-color:#FEFDF9">
+                      <div class="card-body p-2 d-flex justify-content-between align-items-center  text-primary">
+                        <h5>Physics</h5>
+                        <p class='m-0' styke="font-size:14px">12:00pm - 2.00pm
+                        </p>
 
+
+                      </div>
+                      <div class="p-2 d-flex gap-2 align-items-center text-primary">
+                        <img
+                          src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
+                          class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
+                        <p class='m-0'>John</p>
+                        <p class='m-0'>Doe</p>
+                      </div>
                     </div>
-                    <div class="p-2 d-flex gap-2 align-items-center text-primary">
-                      <img
-                        src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
-                        class="rounded-circle img-fluid  " alt="..." style="width:20px;height:20px;" />
-                      <p class='m-0'>Nuru</p>
-                      <p class='m-0'>Something</p>
-                    </div>
-                  </div>
-                </article>
+                  </article>
+                </div>
               </div>
-              <div class="col-lg-5 bg-white mt-4 mx-auto px-3 py-3 rounded ">
-                <article class="px-5 py-2 p-md-1">
-                  <div class="d-flex justify-content-between">
-                    <h4>Homework</h4>
-                    <p style="color:#6C60F7">see all homework</p>
-                  </div>
-                  <div class=" my-3 border-2" E">
-                    <div class="px-2 d-flex justify-content-between align-items-center  ">
-                      <h5 class="mb-0">Chemistry</h5>
+              <div class="col-lg-6">
+                <div class="bg-white mt-4 mx-auto px-3 py-3 rounded ">
+                  <article class="px-5 py-2 p-md-1">
+                    <div class="d-flex justify-content-between">
+                      <h4>Homework</h4>
+                      <p style="color:#6C60F7">see all homework</p>
+                    </div>
+                    <div class=" my-3 border-2" E">
+                      <div class="px-2 d-flex justify-content-between align-items-center  ">
+                        <h5 class="mb-0">Chemistry</h5>
 
-                      <button class="btn" style="background-color:#EEA09F">3 May, 2020</button>
+                        <p class="p-2 rounded mb-0" style="background-color:#EEA09F;font-size:12px">3 May, 2020</p>
+                      </div>
+                      <p class='m-0 px-2'>Intro to Chemistry</p>
                     </div>
-                    <p class='m-0 px-2'>Intro to Chemistry</p>
-                  </div>
-                  <div class=" my-3 border-2">
-                    <div class="  px-2 d-flex justify-content-between align-items-center ">
-                      <h5 class="mb-0">Biology</h5>
-                      <button class="btn" style="background-color:#E7E9EE">11 May, 2020</button>
+                    <div class=" my-3 border-2">
+                      <div class="  px-2 d-flex justify-content-between align-items-center ">
+                        <h5 class="mb-0">Biology</h5>
+                        <p class="p-2 rounded mb-0" style="background-color:#E7E9EE;font-size:12px">11 May, 2020</p>
 
+                      </div>
+                      <p class='m-0 px-2'>Health</p>
                     </div>
-                    <p class='m-0 px-2'>Health</p>
-                  </div>
-                  <div class=" my-3 border-2">
-                    <div class=" px-2 d-flex justify-content-between align-items-center  ">
-                      <h5 class="mb-0">Mathematics</h5>
-                      <button class="btn" style="background-color:#E7E9EE">15 May, 2020</button>
+                    <div class=" my-3 border-2">
+                      <div class=" px-2 d-flex justify-content-between align-items-center  ">
+                        <h5 class="mb-0">Mathematics</h5>
+                        <p class="p-2 rounded mb-0" style="background-color:#E7E9EE;font-size:12px">15 May, 2020</p>
+                      </div>
+                      <p class='m-0 px-2'>Algorithms</p>
                     </div>
-                    <p class='m-0 px-2'>Algorithms</p>
-                  </div>
-                  <div class=" my-3 border-2">
-                    <div class="px-2 d-flex justify-content-between align-items-center  ">
-                      <h5 class="mb-0">Physics</h5>
-                      <button class="btn" style="background-color:#E7E9EE">27 May, 2020</button>
+                    <div class=" my-3 border-2">
+                      <div class="px-2 d-flex justify-content-between align-items-center  ">
+                        <h5 class="mb-0">Physics</h5>
+                        <p class="p-2 rounded mb-0" style="background-color:#E7E9EE;font-size:12px">27 May, 2020</p>
+                      </div>
+                      <p class='px-2 m-0'>Gravitational Force</p>
                     </div>
-                    <p class='px-2 m-0'>Gravitational Force</p>
+
+                  </article>
+                  <div class="col-8 col-md-12 mx-auto card p-4" style="width:280px;height:280px">
+                    <canvas id="myChart" width="400" height="400"></canvas>
                   </div>
-                </article>
+                </div>
               </div>
             </div>
           </div>
@@ -142,13 +155,13 @@
             <div class="profile mt-2 rounded-top justify-content-center align-items-center px-5 py-2">
               <img
                 src="https://media.istockphoto.com/photos/japanese-woman-helping-her-colleague-picture-id1366415101?b=1&k=20&m=1366415101&s=170667a&w=0&h=CEZ3D5KzQ4IQQtUHn5j2PUz_L3U236TJIQxB46IPDFU="
-                class=" img-fluid profile-img " alt="..." />
+                class=" img-fluid profile-img rounded-circle" alt="..." />
               <div class="card">
               </div>
               <p class="text-center mt-4">Mustapha Jamil</p>
               <p class="text-center">example@gmail.com <i class="fa-solid fa-note-sticky "></i></p>
-              <p class="text-center">70% completion</p>
-              <button class="btn btn-secondary mb-4">Settings</button>
+              <p class="text-center" style="color:greenyellow">70% completion</p>
+              <button class="btn btn-secondary my-3">Settings</button>
             </div>
             <div class="card mb-3 mx-3">
               <div class="card-body">
@@ -160,41 +173,41 @@
             <div class='px-4 py-1 p-md-1'>
               <div class="card my-3" style="background-color:#ECF3FE">
                 <div class="card-body gap-2 d-flex justify-content-between align-items-center text-primary">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 align-items-center">
                     <span><i class="fa-solid fa-circle fs-2"></i></span>
                     <div>
-                      <h5 class='m-0'>FrontEnd
+                      <h5 class='m-0'>Religion
                       </h5>
-                      <p class='m-0'>MJ</p>
+                      <p class='m-0'>John Doe</p>
                     </div>
                   </div>
-                  <p>Steamledge</p>
+                  <p class='m-0'>8:00 - 9:00</p>
                 </div>
               </div>
               <div class="card my-3" style="background-color:#FFEBEB">
                 <div class="card-body gap-2 d-flex  justify-content-between align-items-center text-danger">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 align-items-center">
                     <span><i class="fa-solid fa-circle fs-2"></i></span>
                     <div>
-                      <h5 class='m-0'>FrontEnd
+                      <h5 class='m-0'>Arabic
                       </h5>
-                      <p class='m-0'>MJ</p>
+                      <p class='m-0'>Jane Doe</p>
                     </div>
                   </div>
-                  <p>Steamledge</p>
+                  <p class='m-0'>9:00 - 10:00</p>
                 </div>
               </div>
               <div class="card my-3" style="background-color:#EBF8FB">
                 <div class="card-body gap-2 d-flex justify-content-between align-items-center text-primary">
-                  <div class="d-flex gap-2">
+                  <div class="d-flex gap-2 align-items-center">
                     <span><i class="fa-solid fa-circle fs-2"></i></span>
                     <div>
-                      <h5 class='m-0'>FrontEnd
+                      <h5 class='m-0'>Chemistry
                       </h5>
-                      <p class='m-0'>MJ</p>
+                      <p class='m-0'>David Rock</p>
                     </div>
                   </div>
-                  <p>Steamledge</p>
+                  <p class='m-0'>10:00 - 11:00</p>
                 </div>
               </div>
             </div>
